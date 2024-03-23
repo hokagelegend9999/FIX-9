@@ -1,0 +1,110 @@
+// cREATE uSER
+PATCH  http://localhost:5000/users
+Content-Type: application/json
+
+{
+  
+  "name": "hokage3",
+  "email": "hokage@gmail.com",
+  "status":"active",
+  "role": "admin"
+}
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+
+    "email": "hokage@gmail.com",
+    "password": "1234"
+
+}
+
+
+###
+
+GET http://localhost:5000/region
+
+###
+
+GET http://localhost:5000/vendingpoints/${vendingpointId}`, { status: checked ? 'active' : 'inactive' });
+
+
+###
+PATCH http://localhost:5000/users/2adc2aab-4e54-42a5-83ca-074174b427fb
+Content-Type: application/json
+
+{
+  "status": "Aktif",
+  "password": "1234"
+}
+
+
+
+###
+
+GET http://localhost:5000/region/804644b2-f544-43c9-a206-9694289b37e3
+
+
+###
+
+GET http://localhost:5000/vendingpoints
+
+
+
+###
+
+
+POST http://localhost:5000/Region
+Content-Type: application/json
+
+{
+  "country": "indonesia",
+  "province": "jakarta",
+  "city": "jakarta"
+}
+
+###
+// MENAMBAH PRODUCT
+
+POST  http://localhost:5000/Products
+Content-Type: application/json
+
+{
+    "productmodel": "tem88",
+    "productname": "tem2",
+    "metertype": "1234567",
+    "manufacturer": "tem10"
+   
+}
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "region": "indonesia",
+ 
+}
+
+###
+
+GET  http://localhost:5000/users
+
+
+###
+
+PATCH http://localhost:5000/products/:id
+Content-Type: application/json
+
+
+
+
+###
+
+GET  http://localhost:5000/Region
+
+
